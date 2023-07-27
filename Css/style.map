@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss",
+		"../sass/_variable.scss",
+		"../sass/_promo.scss",
+		"../sass/_header.scss",
+		"../sass/_buttons.scss"
+	],
+	"sourcesContent": [
+		"@import 'variable';\r\n* {\r\nfont-family: 'Museo Sans Cyrl' sans-serif;\r\n}\r\n\r\n.container {\r\nmax-width: 950px;\r\nmargin: 0 auto;\r\n}\r\n@import 'promo';\r\n@import 'header';\r\n@import 'buttons';",
+		"$main-color: #c70101;\r\n",
+		".promo {\r\nmin-height: 650px;\r\npadding: 21px 0 93px 0;\r\nbackground: url(../img/main.jpg) center center/cover no-repeat;\r\n}",
+		".header {\r\ndisplay: flex;\r\njustify-content: space-between;\r\nalign-items: center;\r\n&__logo {\r\nwidth: 250px;\r\nimg {\r\n    width: 100%;\r\n}\r\n }\r\n&__official {\r\n    color: #FFF;\r\n    font-size: 12px;\r\n    font-weight: 500;\r\n    text-align: center;\r\n    span {\r\n        display: block;\r\n        font-size: 18px;\r\n    }\r\n}\r\n&__phone {\r\ndisplay: block;\r\ncolor: #FFF;\r\nfont-size: 18px;\r\nfont-weight: 700;\r\ntext-decoration: none;\r\n&:hover {\r\ncolor: blue;\r\n}\r\n}\r\n&__contacts {\r\ndisplay: flex;\r\nflex-direction: column;\r\nalign-items: flex-end;\r\n}\r\n}",
+		".button {\r\nwidth: 153px;\r\nheight: 32px;\r\nbackground-color: $main-color;\r\nborder-radius: 5px;\r\nborder: none;\r\ncolor: #FFF;\r\nfont-size: 12px;\r\nfont-weight: 500;\r\ntext-transform: uppercase;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,CAAC,CAAC;EACF,WAAW,EAAE,4BAA4B;CACxC;;;AAED,AAAA,UAAU,CAAC;EACX,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;CACb;;;AERD,AAAA,MAAM,CAAC;EACP,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,aAAa;EACtB,UAAU,EAAE,oBAAoB,CAAC,MAAM,CAAC,YAAY,CAAC,SAAS;CAC7D;;;ACJD,AAAA,OAAO,CAAC;EACR,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CAgClB;;;AA/BA,AAAD,aAAO,CAAC;EACR,KAAK,EAAE,KAAK;CAIV;;;AALD,AAED,aAFO,CAEP,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;CACd;;;AAEA,AAAD,iBAAW,CAAC;EACR,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;CAKrB;;;AATA,AAKG,iBALO,CAKP,IAAI,CAAC;EACD,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;CAClB;;;AAEJ,AAAD,cAAQ,CAAC;EACT,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,eAAe,EAAE,IAAI;CAIpB;;;AATA,AAMD,cANQ,AAMP,MAAM,CAAC;EACR,KAAK,EAAE,IAAI;CACV;;;AAEA,AAAD,iBAAW,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,QAAQ;CACpB;;;AClCD,AAAA,OAAO,CAAC;EACR,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,gBAAgB,EHHH,OAAO;EGIpB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,SAAS;CACxB"
+}
